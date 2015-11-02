@@ -104,11 +104,11 @@
 
   .header__group-text,
   .header__group-image {
-      flex: 1;
+    flex: 1;
   }
 
   .header__group-image {
-      position: relative;
+    position: relative;
   }
 
   .header__img {
