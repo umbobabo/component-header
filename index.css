@@ -8,7 +8,6 @@
 .header {
   font-size: 1rem;
   position: relative;
-  background-position: center -60px;
   background-repeat: no-repeat;
 }
 
@@ -86,7 +85,7 @@
     flex-direction: row-reverse;
     display: flex;
     background-image: none !important;
-    height: 300px;
+    height: var(--header-viewport-big-height, 300px);
     padding:  var(--header-padding-top, var(--grid-spacing-hedgehog)) var(--grid-gutter-m) var(--header-padding-bottom, var(--grid-spacing-hedgehog));
   }
 
