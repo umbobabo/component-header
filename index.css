@@ -96,8 +96,7 @@
   }
 
   .header__text {
-    flex: 1;
-    vertical-align: middle;
+    width: 100%;  /* Fix for IE */
   }
 
   .header__title {
