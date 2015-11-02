@@ -1,0 +1,46 @@
+.header {
+  border-bottom: solid 10px;
+}
+
+.header--blog21003976{
+  border-bottom-color: var(--color-boston);
+  background: var(--color-chicago);
+}
+.header__additional-element {
+  color: var(--header__additional-element-color, var(--color-thimphu));
+  margin: var(--grid-spacing-sheep) 0;
+  font-family: 'Halifax Regular';
+}
+
+.header__follow-us-title {
+  margin-bottom: var(--header__follow-us-title-margin-bottom, var(--grid-spacing-hedgehog));
+}
+
+.header__additional-element .Icon {
+  fill: var(--header__additional-element-icon, var(--color-chicago));
+  border-radius: 50%;
+  background: var(--header__additional-element-icon-background, var(--color-thimphu));
+}
+
+.header__additional-element {
+  margin: 0;
+}
+
+.header__title {
+  text-shadow: 2px -2px var(--header__title-text-shadow, var(--color-chicago)),
+  -2px 2px var(--header__title-text-shadow, var(--color-chicago)),
+  -2px -2px var(--header__title-text-shadow, var(--color-chicago)),
+  2px 2px var(--header__title-text-shadow, var(--color-chicago));
+}
+
+@media (--viewport-big) {
+  .header__follow-us-title,
+  .header__follow-us-icons {
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .header__follow-us-icons {
+    padding: 0 var(--grid-gutter-s);
+  }
+}
