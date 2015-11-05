@@ -1,6 +1,6 @@
 {
   "name": "@economist/component-header",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Reusable header for collections pages or detail pages",
   "author": "The Economist (http://economist.com)",
   "license": "MIT",
@@ -15,6 +15,7 @@
   "main": "index.js",
   "files": [
     "*.js",
+    "*.es6",
     "*.css",
     "!karma.conf.js",
     "!testbundle.js"

@@ -27,7 +27,7 @@ export default class Header extends React.Component {
     const groups = [];
     const imageSrc = this.props.image && this.props.image.src;
     let imageClasses = [ 'header__group-image' ];
-    let inlineStyle = false;
+    let inlineStyle = null;
     if (imageSrc) {
       imageClasses = imageClasses.concat([ 'header__group-image--empty' ]);
       inlineStyle = { backgroundImage: `url(${this.props.image.src})` };
