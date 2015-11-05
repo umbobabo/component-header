@@ -1,6 +1,7 @@
 .header {
   border-bottom: solid 10px;
   background-position: center -60px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .header--blog21003976{

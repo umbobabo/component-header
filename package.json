@@ -139,6 +139,7 @@
   },
   "devDependencies": {
     "@economist/component-devpack": "^3.4.2",
+    "@economist/component-icon": "^3.6.6",
     "babel": "^5.8.23",
     "babelify": "^6.3.0",
     "browser-sync": "^2.8.2",

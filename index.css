@@ -28,9 +28,13 @@
   letter-spacing: var(--text-letter-spacing-body-bold-on-step-5);
   font-weight: bold;
   font-family: 'Halifax Bold';
-  color: var(--header__title-color, var(--color-thimphu));
   order: 2;
   margin: 0;
+}
+
+.header__title,
+.header__title-link {
+  color: var(--header__title-color, var(--color-thimphu));
 }
 
 .header__flytitle {
