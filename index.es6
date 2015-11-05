@@ -13,6 +13,7 @@ export default class Header extends React.Component {
       itemProp: React.PropTypes.string,
       className: React.PropTypes.string,
       children: React.PropTypes.element,
+      link: React.PropTypes.object,
     };
   }
   static get defaultProps() {
@@ -49,14 +50,16 @@ export default class Header extends React.Component {
         >{this.props.flyTitle}</h2>
       ));
     }
-    if (this.props.title) {
-      headerContent.push((
-        <h1
-          className="header__title"
-          itemProp="headline"
-          key={`header__title`}
-        >{this.props.title}</h1>));
+    let title = this.props.title;
+    if (this.props.link) {
+      title = <a {...this.props.link} className="header__title-link">{this.props.title}</a>;
     }
+    headerContent.push((
+    <h1
+      className="header__title"
+      itemProp="headline"
+      key={`header__title`}
+    >{title}</h1>));
     if (this.props.text) {
       headerContent.push((
         <div
