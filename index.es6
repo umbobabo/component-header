@@ -12,7 +12,7 @@ export default class Header extends React.Component {
       itemType: React.PropTypes.string,
       itemProp: React.PropTypes.string,
       className: React.PropTypes.string,
-      children: React.PropTypes.element,
+      children: React.PropTypes.arrayOf(React.PropTypes.element),
       link: React.PropTypes.object,
     };
   }
