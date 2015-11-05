@@ -72,6 +72,8 @@
   }
   .header__title {
     padding: var(--header__title-padding-top, var(--grid-spacing-rabbit)) var(--header__title-padding-v, 15%) var(--header__title-padding-bottom, var(--grid-spacing-fox));
+    /* Prevent overlapping with the illustration and the text. */
+    min-height: 3em;
   }
   .header__group-text {
     text-align: center;

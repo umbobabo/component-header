@@ -35,6 +35,10 @@
   2px 2px var(--header__title-text-shadow, var(--color-chicago));
 }
 
+.header__text {
+  background: var(--color-chicago);
+}
+
 @media (--viewport-big) {
   .header__follow-us-title,
   .header__follow-us-icons {
